@@ -1,0 +1,100 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url('https://hips.hearstapps.com/hmg-prod/images/valentines-day-episode-16-aired-pictured-angela-kinsey-as-news-photo-1581609901.jpg');
+    background-size: cover; /* Makes the image cover the entire background */
+    background-position: center; /* Centers the background image */
+    background-repeat: repeat; 
+    background-color: #ffe4e1;
+    margin: 0px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .quiz-container {
+    background-color: #ffffff;
+    border-radius: 0px;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    padding: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 90%;
+    max-width: 700px;
+    border: solid #000000;
+    border-width: 4px;
+    margin-top: 5px;
+    margin-bottom: -50px;
+
+     /* ✨ 3D Effects */
+     box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.3), 
+     -5px -5px 15px rgba(255, 255, 255, 0.5); /* Adds depth */
+transform: perspective(1000px) rotateX(2deg) rotateY(-1deg); /* Subtle 3D tilt */
+transition: all 0.3s ease-in-out; /* Smooth transition */
+}
+
+/* 🖱️ Add an effect when hovered */
+.quiz-container:hover {
+transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale(1.020); /* Slight zoom effect */
+box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.4), 
+     -10px -10px 20px rgba(255, 255, 255, 0.6);
+}
+
+/* 🎨 Optional: Add a gradient for a more stylish look */
+.quiz-container {
+background: rgba(255, 255, 255, 0.93);
+  }
+  
+  h1 {
+    color: #cc1616;
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  button {
+    background-color: #581ba8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;  /* Ensures it takes the full width available */
+    margin: 30px auto; /* Centers horizontally */
+  }
+
+  
+  button:hover {
+    background-color: #0a0a0a;
+  }
+  
+  #result {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #070000;
+    
+  }
+
+  footer p {
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 10px;
+    color: #000000;
+    border-radius: 4px;
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    left: 680px;
+    padding: 2px 2px;
+    background-color: #ffffff;
+
+}  
+@keyframes fall {
+    to { transform: translateY(100vh); opacity: 0; }
+  }
+  
