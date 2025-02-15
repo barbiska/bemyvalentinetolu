@@ -17,17 +17,17 @@ const quizData = [
     {
         question: "What was the first food i made for you?",
         options: ["gulash", "cookies", "i never cook for you", "pasta"],
-        answer: "cookies",
+        answer: "gulash",
     },
     {
         question: "What was the first exercise i tried to explain to you in the gym?",
         options: ["deadlift", "pullups", "lat pushdown", "benchpress"],
-        answer: "lat pushdown",
+        answer: "deadlift",
     },
     {
         question: "What was the first food what you made for me?",
         options: ["asian tofu", "tortilla", "popcorn", "pasta"],
-        answer: "asian tofu",
+        answer: "tortilla",
     },
     {
         question: "Which one is my favorite parfume, the same what you did wear the first time when we kissed?",
